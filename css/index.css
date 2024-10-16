@@ -1,0 +1,144 @@
+/* color variables */
+    :root{
+        --boligguide: #8A4F3D;
+        --bydele: #487874;
+        --boformer: #CCBCB2;
+        --boligtips: #DC9679;
+        --faq: #D2D1D8;
+    }
+
+/*fonts */
+    @font-face {
+        font-family: "sandy";
+        src: url(../fonts/Sandy\ House.ttf);
+    }
+
+/* Background */
+    body{
+        background-image: url(/images/tapet3_rød.jpg);
+        background-attachment: fixed;
+        background-color: var(--boligguide);
+        font-family: "sandy";
+        color: white;
+    }
+
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: "sandy";
+    }
+
+/* header */
+
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        transform: scale(1.5);
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .links_header{
+        margin-top: 50px;
+        letter-spacing: 3px;
+    }
+    .links_header:hover{
+            transform: scale(1.1);
+            transition: ease-out 0.2s;
+    }
+
+/* logo */
+    #logo{
+    position: absolute;
+    top: -30px;
+    transform: scale(0.5);
+    :hover{
+        transform: scale(1.1);
+        transition: ease-out 0.2s;
+    }
+    }
+
+/* main */
+
+    /* text */
+        #title{
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            left: 645px;
+            top: 200px;
+            text-align: center;
+            transform: scale(2);
+            letter-spacing: 5px;
+        }
+
+        h2{font-size: 30px;
+            letter-spacing: 5px;
+
+        }
+        p{
+            font-size: 25px;
+
+        }
+        .text{
+            display:block;
+            padding-left: 10px;
+            margin-top: 100px;
+            line-height: 25px;
+            letter-spacing: 3px;
+            font-weight: lighter;
+        }
+        /* undertitler */
+        #bydele{
+            position: absolute;
+            top: 70px;
+            left:262px;
+        }
+        #boformer{
+            position: absolute;
+            top: 75px;
+            left:10px;
+        }
+        #boligtips{
+            position: absolute;
+            top: 70px;
+            left: 330px;
+        }
+        #faq{
+            position: absolute;
+            top: 70px;
+            left: 285px;
+        }
+
+     /* frames */
+        .art1{
+            display: flex;
+            position: absolute;
+            left: 150px;
+            top: 300px;
+        }
+        .art2{
+            display: flex;
+            position: absolute;
+            right: 20px;
+            top: 350px;
+        }
+        .art3{
+            display: flex;
+            position: absolute;
+            left: 250px;
+            top: 600px;
+        }
+        .art4{
+            display: flex;
+            position: absolute;
+            right: 400px;
+            top: 1000px;
+        }
+
+
+    a:hover{
+        transform: scale(1.1);
+        transition: ease-out 0.6s ;
+    }
