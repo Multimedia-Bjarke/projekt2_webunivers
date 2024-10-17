@@ -15,10 +15,10 @@
 
 /* Background */
 body{
-    background-image: url(/images/tapet2_blå.JPG);
+    background-image: url(/images/tapet5_laks.jpg);
     background-attachment: fixed;
     background-size:100%;
-    background-color: var(--bydele);
+    background-color: var(--boformer);
     font-family: "sandy";
     color: white;
     margin-bottom: 0;
@@ -91,132 +91,99 @@ transform: scale(0.5);
     p{
         font-size: 25px;
     }
-    ul{
-     justify-items: center; 
-     font-size: 25px;
-     letter-spacing: 3px;
-     font-weight: lighter;
-     list-style:disc;
-    }
 
-    /* undertitler */
+/* undertitler */
     h2{
         font-size: 40px;
         letter-spacing: 5px;
         font-weight: lighter;
     }
-    #h2_ring{
+    #h2_kol1{
         position:relative;
-        bottom: -30px;
-
+        top: 400px;
     }
-    #h2_ris{
+    #h2_kol2{
         position:relative;
-        bottom: -30px;
+        bottom: -10px;
     }
-    #h2_tro{
+    #h2_ung{
         position:relative;
-        bottom: -30px;
+        top: 20px;
     }
-    #h2_chr{
+    #h2_pri{
         position:relative;
-        bottom: -30px;
+        bottom: -10px;
     }
-    #h2_has{
+    #h2_bol{
         position:relative;
-        bottom: -30px;
+        bottom: -10px;
     }
-    #h2_aab{
+    #h2_vaer{
         position:relative;
-        bottom: -30px;
+        bottom: -10px;
     }
-    #h2_bra{
+    #h2_and{
         position:relative;
-        bottom: -30px;
+        bottom: -10px;
     }
-    #h2_vib{
+    #h2_ejer{
         position:relative;
-        bottom: -30px;
+        bottom: -10px;
     }
-    #h2_hoe{
+    #h2_frem{
         position:relative;
-        bottom: -30px;
+        bottom: -10px;
     }
-
-    #h2_lat{
-        position:relative;
-        bottom: -30px;
-    }
-    #h2_oe{
-        position:relative;
-        bottom: -30px;
-    }
-    #h2_fre{
-        position:relative;
-        bottom: -30px;
-    }
- /* frames */
-    #imgRing{
-        position: relative;
-        left: 580px;
-        top: -65px;
-    }
-    #imgKort{
-        position: relative;
-        top: 210px;
-        transform: scale(1.5);
-        left: 80px;
-    }
-    #imgBydele{
-        position: relative;
-        top: -200px;
-        left: -450px;
-    }
-    #h2_cer{
-        position:relative;
-        bottom: -30px;
-    }
+    
 
  /* sections */
-    #ringveje{
+    #intro{
+        margin-top: -60px;
+    }
+    #kollektiver{
+        margin-top: -400px;
+    }
+    #kollegier{
+        margin-top: 550px;
+    }
+    #ungdomsbolig{
         margin-top: 200px;
-    }
-    #risskov{
-        margin-top: 500px;
-    }
-    #trojborg{
-        margin-top: 300px;
-    }
-    #christian{
-        margin-top: 180px;
-    }
-    #hasle{
-        margin-top: 180px;
-    }
 
-    #aaby{
-        margin-top: 150px;
     }
-    #brabrand{
-        margin-top: 150px;
-    }
-    #viby{
-        margin-top: 150px;
-    }
-    #hoejbjerg{
-        margin-top: 150px;
-    }
-    #latiner{
-        margin-top: 150px;
-    }
-    #oe{
-        margin-top: 150px;
-    }
-    #frederik{
-        margin-top: 150px;
-    }
-    #ceres{
-        margin-top: 150px;
-        margin-bottom: 200px;
-    }
+    #privat{
+        margin-top: 200px;
 
+    }
+    #boligforening{
+        margin-top: 100px;
+    }
+    #vaerelse{
+        margin-top: 100px;
+
+    }
+    #andelsbolig{
+        margin-top: 100px;
+
+    }
+    #ejer{
+        margin-top: 100px;
+    }
+    #fremleje{
+        margin-top: 100px;
+    }
+/* frames */
+     #img_kol1{
+        position: relative;
+        left: -450px;
+        top: 100px;
+    }
+    #img_kol2{
+        position: relative;
+        left: -450px;
+        top: -150px;
+    }
+    #img_ung{
+        position: relative;
+        left: 550px;
+        top: -150px;
+    }

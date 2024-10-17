@@ -1,0 +1,169 @@
+/* color variables */
+:root{
+    --boligguide: #8A4F3D;
+    --bydele: #487874;
+    --boformer: #CCBCB2;
+    --boligtips: #DC9679;
+    --faq: #D2D1D8;
+}
+
+/*fonts */
+@font-face {
+    font-family: "sandy";
+    src: url(../fonts/Sandy\ House.ttf);
+}
+
+/* Background */
+body{
+    background-image: url(/images/tapet6_savsmuld.jpg);
+    background-attachment: fixed;
+    background-size:100%;
+    background-color: var(--faq);
+    font-family: "sandy";
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "sandy";
+}
+
+p{
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    transform: scale(1.5);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.links_header{
+    margin-top: 50px;
+    letter-spacing: 3px;
+}
+.links_header:hover{
+        transform: scale(1.1);
+        transition: ease-out 0.2s;
+}
+
+/* logo */
+#logo{
+position: absolute;
+top: -30px;
+transform: scale(0.5);
+:hover{
+    transform: scale(1.1);
+    transition: ease-out 0.2s;
+}
+}
+
+/* text */
+
+h1{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    left: 680px;
+    top: 150px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+
+p{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+    /* undertitler */
+        h2{
+            font-size: 40px;
+            letter-spacing: 5px;
+            font-weight: lighter;
+        }
+
+        #h2_et{
+            position: relative;
+            left: 472px;
+            top: 300px;
+        }
+
+        #h2_to{
+            position: relative;
+            left: 814px;
+            top: 500px;
+        }
+
+        #h2_tre{
+            position: relative;
+            left: 300px;
+            top: 850px;
+        }
+/* sections */
+
+section{
+    display: flex;
+    width: 800px;
+    height: 100px;
+    text-align: justify;
+}
+#et{
+    position: relative;
+    left: 250px;
+    top: 250px;
+}
+#to{
+    position: relative;
+    left: 500px;
+    top: 450px; 
+    width: 900px;
+}
+#tre{
+    position: relative;
+    left: 100px;
+    top: 770px;
+}
+#img_tv{
+    position: relative;
+    left: 590px;
+    top: 500px;
+}
+#img_stolV{
+    position: relative;
+    left: 200px;
+    top: 400px;
+}
+#img_stolH{
+    position: relative;
+    left: 400px;
+    top: 400px;
+}
+#gulv{
+background-image: url(/images/furniture/livingroomfloor.jpg);
+width: 100%;
+height: 100%
+
+}
+
+#form{
+    position: relative;
+    left: 469px;
+    top: 414px;
+    transform: scale(0.8);
+}
+#send_spsm{
+    position: relative;
+    left: 469px;
+    top: 350px;
+    transform: scale(0.8);
+}

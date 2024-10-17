@@ -1,0 +1,183 @@
+/* color variables */
+:root{
+    --boligguide: #8A4F3D;
+    --bydele: #487874;
+    --boformer: #CCBCB2;
+    --boligtips: #DC9679;
+    --faq: #D2D1D8;
+}
+
+/*fonts */
+@font-face {
+    font-family: "sandy";
+    src: url(../fonts/Sandy\ House.ttf);
+}
+
+/* Background */
+body{
+    background-image: url(/images/tapet4_laks.jpg);
+    background-attachment: fixed;
+    background-size:100%;
+    background-color: var(--boligtips);
+    font-family: "sandy";
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "sandy";
+}
+
+p{
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    transform: scale(1.5);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.links_header{
+    margin-top: 50px;
+    letter-spacing: 3px;
+}
+.links_header:hover{
+        transform: scale(1.1);
+        transition: ease-out 0.2s;
+}
+
+/* logo */
+#logo{
+position: absolute;
+top: -30px;
+transform: scale(0.5);
+:hover{
+    transform: scale(1.1);
+    transition: ease-out 0.2s;
+}
+}
+
+/* text */
+
+h1{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    left: 640px;
+    top: 150px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+
+p{
+    font-size: 25px;
+}
+
+/*sections */
+.tableframes{
+    display: flex;
+    position: relative;
+    left: 375px;
+    top: 100px;
+}
+
+/* frames */
+#et{
+    position: relative;
+    left: 300px;
+    top: 200px;
+}
+
+#to{
+    position: relative;
+    left: 1000px;
+    top: 100px;
+}
+#tre{
+transform: scale(0.7);
+position: relative;
+    left: -15px;
+    top: 40px;
+}
+#fire{
+    transform: scale(0.8);
+    position: relative;
+        left: -15px;
+        top: 50px;
+}
+#fem{
+    transform: scale(0.8);
+    position: relative;
+    left: -10px;
+    top: 50px;
+}
+#seks{
+    transform: scale(0.8);
+    position: relative;
+    left: -20px;
+    top: 70px;
+}
+#kommode{
+    position: relative;
+    left: 180px;
+    top: 50px;
+    transform: scale(0.8);
+    :hover{
+        transform: scale(1);
+    }
+}
+
+#tip1{
+    margin-top: -220px;
+}
+#tip2{
+    margin-top: 200px;
+}
+#tip3{
+    margin-top: 250px;
+}
+#tip4{
+    margin-top: 400px;
+}
+#tip5{
+    margin-top: 400px;
+}
+#tip6{
+    margin-top: 400px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: ease-out 0.6s ;
+}
+
+/* text */
+section{
+    width: 450px;
+    height: 100px;
+    text-align: justify;
+    display: block;
+    position: relative;
+    left: 500px;
+    top: 250px;
+}
+
+/* undertitler */
+h2{
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+#h2_{
+    position:relative;
+    bottom: -30px;
