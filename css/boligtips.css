@@ -24,6 +24,7 @@ body{
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 100px;
 }
 
 a{
@@ -44,6 +45,8 @@ header{
     transform: scale(1.5);
     margin-left: 200px;
     margin-right: 200px;
+    margin-bottom: 150px;
+
 }
 
 .links_header{
@@ -113,13 +116,13 @@ position: relative;
     transform: scale(0.8);
     position: relative;
         left: -15px;
-        top: 50px;
+        top: 55px;
 }
 #fem{
     transform: scale(0.8);
     position: relative;
     left: -10px;
-    top: 50px;
+    top: 60px;
 }
 #seks{
     transform: scale(0.8);
@@ -135,6 +138,7 @@ position: relative;
     :hover{
         transform: scale(1);
     }
+    z-index:-1;
 }
 
 #tip1{
@@ -181,3 +185,4 @@ h2{
 #h2_{
     position:relative;
     bottom: -30px;
+}
