@@ -5,6 +5,7 @@
     --boformer: #CCBCB2;
     --boligtips: #DC9679;
     --faq: #D2D1D8;
+    --logo: #f8f38a;
 }
 
 /*fonts */
@@ -93,6 +94,7 @@ transform: scale(0.5);
 
     p{
         font-size: 25px;
+        letter-spacing: 2px;
     }
 
 /* undertitler */
@@ -154,25 +156,25 @@ transform: scale(0.5);
 
     }
     #privat{
-        margin-top: 200px;
+        margin-top: 250px;
 
     }
     #boligforening{
-        margin-top: 100px;
+        margin-top: 450px;
     }
     #vaerelse{
-        margin-top: 100px;
+        margin-top: 450px;
 
     }
     #andelsbolig{
-        margin-top: 100px;
+        margin-top: 550px;
 
     }
     #ejer{
-        margin-top: 100px;
+        margin-top: 500px;
     }
     #fremleje{
-        margin-top: 100px;
+        margin-top: 350px;
     }
 /* frames */
      #img_kol1{
@@ -189,4 +191,42 @@ transform: scale(0.5);
         position: relative;
         left: 550px;
         top: -150px;
+    }
+    #img_pri{
+        position: relative;
+        left: -400px;
+        top: -250px;
+    }
+    #img_bol{
+        position: relative;
+        left: 550px;
+        top: -150px;
+    }
+    #img_vaer{
+        position: relative;
+        left: -400px;
+        top: -400px;
+    }
+    #img_and{
+        position: relative;
+        left: 550px;
+        top: -350px;
+    }
+    #img_ejer{
+        position: relative;
+        left: -400px;
+        top: -400px;
+    }
+    #img_frem{
+        position: relative;
+        left: 550px;
+        top: -350px;
+    }
+
+    #a_link{
+    
+        color: var(--logo);
+    }
+    #a_link:hover{
+        color: #487874;
     }

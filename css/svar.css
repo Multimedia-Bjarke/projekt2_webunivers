@@ -1,0 +1,63 @@
+/* color variables */
+:root{
+    --boligguide: #8A4F3D;
+    --bydele: #487874;
+    --boformer: #CCBCB2;
+    --boligtips: #DC9679;
+    --faq: #D2D1D8;
+}
+
+/*fonts */
+@font-face {
+    font-family: "sandy";
+    src: url(../fonts/Sandy\ House.ttf);
+}
+
+/* Background */
+body{
+    background-image: url(/images/tapet3_rød.jpg);
+    background-attachment: fixed;
+    background-color: var(--boligguide);
+    background-size: 100%;
+    font-family: "sandy";
+    color: white;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 150px;
+
+}
+
+
+a{
+    text-decoration:none ;
+    color: rgb(255, 255, 255);
+    font-family: "sandy";
+    font-size: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    text-align: center;
+    left: 670px;
+    top: 350px;
+
+}
+
+a:hover{
+    transform: scale(1.2);
+    transition: ease-in 0.2s ;
+}
+
+/* text */
+
+h1{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    left: 530px;
+    top: 150px;
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+

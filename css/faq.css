@@ -5,6 +5,7 @@
     --boformer: #CCBCB2;
     --boligtips: #DC9679;
     --faq: #D2D1D8;
+    --logo: #f8f38a;
 }
 
 /*fonts */
@@ -24,7 +25,6 @@ body{
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 100px;
 }
 
 a{
@@ -35,7 +35,7 @@ a{
 
 p{
     font-size: 25px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 /* header */
 
@@ -98,19 +98,19 @@ p{
         #h2_et{
             position: relative;
             left: 472px;
-            top: 300px;
+            top: 200px;
         }
 
         #h2_to{
             position: relative;
             left: 814px;
-            top: 500px;
+            top: 350px;
         }
 
         #h2_tre{
             position: relative;
             left: 300px;
-            top: 850px;
+            top: 600px;
         }
 /* sections */
 
@@ -123,50 +123,66 @@ section{
 #et{
     position: relative;
     left: 250px;
-    top: 250px;
+    top: 150px;
 }
 #to{
     position: relative;
     left: 500px;
-    top: 450px; 
+    top: 300px; 
     width: 900px;
 }
 #tre{
     position: relative;
     left: 100px;
-    top: 770px;
+    top: 550px;
 }
 #img_tv{
     position: relative;
     left: 590px;
-    top: 500px;
+    top: 700px;
 }
 #img_stolV{
     position: relative;
     left: 200px;
-    top: 400px;
+    top: 560px;
+    transform: scale(1.2);
 }
 #img_stolH{
     position: relative;
     left: 400px;
-    top: 400px;
+    top: 560px;
+    transform: scale(1.2);
 }
 #gulv{
 background-image: url(/images/furniture/livingroomfloor.jpg);
+position: relative;
+top: 200px;
+
 width: 100%;
-height: 100%
+height: 100%;
+z-index: -1;
 
 }
 
 #form{
     position: relative;
     left: 469px;
-    top: 414px;
+    top: 614px;
     transform: scale(0.8);
+    z-index: +1;
 }
+
 #send_spsm{
     position: relative;
     left: 469px;
     top: 350px;
     transform: scale(0.8);
+}
+
+#a_link{
+    
+    color: var(--logo);
+}
+#a_link:hover{
+    color: #487874;
 }

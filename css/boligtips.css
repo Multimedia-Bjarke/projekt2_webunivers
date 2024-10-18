@@ -5,6 +5,7 @@
     --boformer: #CCBCB2;
     --boligtips: #DC9679;
     --faq: #D2D1D8;
+    --logo: #f8f38a;
 }
 
 /*fonts */
@@ -35,7 +36,7 @@ a{
 
 p{
     font-size: 25px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 /* header */
 
@@ -185,4 +186,12 @@ h2{
 #h2_{
     position:relative;
     bottom: -30px;
+}
+
+#a_link{
+    
+    color: var(--logo);
+}
+#a_link:hover{
+    color: #487874;
 }

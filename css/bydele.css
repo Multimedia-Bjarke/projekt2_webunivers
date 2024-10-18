@@ -5,6 +5,7 @@
     --boformer: #CCBCB2;
     --boligtips: #DC9679;
     --faq: #D2D1D8;
+    --logo: #f8f38a;
 }
 
 /*fonts */
@@ -93,6 +94,7 @@ transform: scale(0.5);
 
     p{
         font-size: 25px;
+        letter-spacing: 2px;
     }
     ul{
      justify-items: center; 
