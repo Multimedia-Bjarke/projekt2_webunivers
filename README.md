@@ -9,4 +9,9 @@ Nye teknikker jeg har lært i denne process:
     Opmærksomhed på at containere ikke overlapper hinanden, så hover (e.l.) funktioner forsvinder
 
 OBS!
+Da repsonsivt design ikke var et krav har jeg designet og kodet efter en resolution på:
+1440x900
+
+    Indstil venligst dit browervindue til denne størrelse for korrekt visning.
+
 Formularen ligger på undersiden "FAQ" på tv'et nederst på siden.
