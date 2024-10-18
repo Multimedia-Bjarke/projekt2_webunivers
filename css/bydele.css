@@ -16,7 +16,7 @@
 
 /* Background */
 body{
-    background-image: url(/images/tapet2_blå.JPG);
+    background-image: url(/images/tapet2_blå.jpg);
     background-attachment: fixed;
     background-size:100%;
     background-color: var(--bydele);
